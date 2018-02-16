@@ -25,4 +25,6 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile 'com.google.guava:guava:16.0'
     testCompile 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/org.assertj/assertj-core
+    testCompile 'org.assertj:assertj-core:3.9.0'
 }

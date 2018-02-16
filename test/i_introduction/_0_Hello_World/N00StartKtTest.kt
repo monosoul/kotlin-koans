@@ -1,10 +1,10 @@
 package i_introduction._0_Hello_World
 
-import org.junit.Assert.assertEquals
+import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 
 class N00StartKtTest {
     @Test fun testOk() {
-        assertEquals("OK", task0())
+        assertThat(task0()).isEqualTo("OK")
     }
 }
